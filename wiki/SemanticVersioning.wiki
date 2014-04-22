@@ -16,6 +16,30 @@ Given a version number MAJOR.MINOR.PATCH, increment the:
 
 Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 
+=== Branch naming conventions ===
 
+All of our developer tasks go into a bug tracking system. This bug tracking system has IDs associated with each task. So for the branch name of any task, we use:
+
+ticketId_TicketSubject
+
+When a branch contains multiple ticketIds we just combine them into the branch name:
+
+ticketId1_ticketId2_Description
+
+That way if you're in a ticket and you want to know which branch to build, you can easily look it up. Likewise if you want to find the ticket with your branch build, you can easily find it too. For tags, we tag it by the version number itself.
+
+As for the location of each branch. We have a top level hierarchy like this:
+
+/branches
+/tags
+/trunk
+
+Then all of our products/projects go under each of those inside their own subfolders.
+
+/trunk/project1/
+/branches/project1/TicketId_Description
+
+[https://stackoverflow.com/questions/681309/which-naming-conventions-do-you-use-for-svn-branches-and-tags Reference:Stackoverlfow]
+ 
 = References =
 Website: [http://www.semver.org Semantic Versioning]
