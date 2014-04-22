@@ -1,6 +1,5 @@
-#summary One-sentence summary of this page.
+#summary Semantic Versioning 2.0.0 - Version standards for an application
 #labels Reference
-Semantic Versioning 2.0.0 - Version standards for an application
 
 = Introduction =
 In the world of software management there exists a dread place called "dependency hell." The bigger your system grows and the more packages you integrate into your software, the more likely you are to find yourself, one day, in this pit of despair. -- Excerpt from www.semver.org
