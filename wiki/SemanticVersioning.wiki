@@ -42,7 +42,5 @@ Then all of our products/projects go under each of those inside their own subfol
  
 = References =
 
-
   # [http://www.semver.org Semantic Versioning - http://www.semver.org ]
-
   # [https://stackoverflow.com/questions/681309/which-naming-conventions-do-you-use-for-svn-branches-and-tags Stackoverflow: Which naming conventions do you use for SVN Branches and Tags? ]
