@@ -39,7 +39,10 @@ Then all of our products/projects go under each of those inside their own subfol
 /trunk/project1/
 /branches/project1/TicketId_Description
 
-[https://stackoverflow.com/questions/681309/which-naming-conventions-do-you-use-for-svn-branches-and-tags Reference:Stackoverlfow]
  
 = References =
-Website: [http://www.semver.org Semantic Versioning]
+
+
+Website: [http://www.semver.org Semantic Versioning (http://www.semver.org) ]
+
+[https://stackoverflow.com/questions/681309/which-naming-conventions-do-you-use-for-svn-branches-and-tags Which naming conventions do you use for SVN Branches and Tags? (Stackoverflow) ]
