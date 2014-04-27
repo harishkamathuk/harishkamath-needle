@@ -1,0 +1,16 @@
+#summary Command to run to run the needle application in a command shell.
+
+= Introduction =
+
+This is the command to run when invoking the Cake Shell from the "Run" command
+
+
+= Details =
+
+*Run the below command in the Windows >> Run window.
+
+{{{
+
+cmd /k "A:&&cd needle&&Console\cake needle" 
+
+}}}
