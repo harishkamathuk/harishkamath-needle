@@ -1,0 +1,43 @@
+# Introduction #
+In the world of software management there exists a dread place called "dependency hell." The bigger your system grows and the more packages you integrate into your software, the more likely you are to find yourself, one day, in this pit of despair. -- Excerpt from www.semver.org
+
+
+
+# Details #
+
+Given a version number MAJOR.MINOR.PATCH, increment the:
+
+  * MAJOR version when you make incompatible API changes,
+  * MINOR version when you add functionality in a backwards-compatible manner, and
+  * PATCH version when you make backwards-compatible bug fixes.
+
+Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
+
+### Branch naming conventions ###
+
+All of our developer tasks go into a bug tracking system. This bug tracking system has IDs associated with each task. So for the branch name of any task, we use:
+
+ticketId\_TicketSubject
+
+When a branch contains multiple ticketIds we just combine them into the branch name:
+
+ticketId1\_ticketId2\_Description
+
+That way if you're in a ticket and you want to know which branch to build, you can easily look it up. Likewise if you want to find the ticket with your branch build, you can easily find it too. For tags, we tag it by the version number itself.
+
+As for the location of each branch. We have a top level hierarchy like this:
+
+/branches
+/tags
+/trunk
+
+Then all of our products/projects go under each of those inside their own subfolders.
+
+/trunk/project1/
+/branches/project1/TicketId\_Description
+
+
+# References #
+
+  1. [Semantic Versioning - http://www.semver.org ](http://www.semver.org)
+  1. [Stackoverflow: Which naming conventions do you use for SVN Branches and Tags? ](https://stackoverflow.com/questions/681309/which-naming-conventions-do-you-use-for-svn-branches-and-tags)
